@@ -1,0 +1,41 @@
+{
+  "_comment": "===== MODEL CONFIGURATION =====",
+  "model_dir": "models/nat_trained",
+
+  "_comment": "===== TRAINING CONFIGURATION =====",
+  "random_seed": 4557077,
+  "max_num_training_steps": 25000,
+  "num_output_steps": 100,
+  "num_summary_steps": 100,
+  "num_checkpoint_steps": 300,
+  "training_batch_size": 50,
+  "training_objective": "nat",
+  "continue_train": false,
+  "m": 10,
+  "lambda": 1.0,
+  "approx_factor": 1,
+
+  "_comment": "===== EVAL CONFIGURATION =====",
+  "num_eval_examples": 10000,
+  "eval_batch_size": 100,
+
+  "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
+  "epsilon": 0.3,
+  "k": 40,
+  "a": 0.01,
+  "random_start": true,
+  "loss_func": "xent",
+
+  "_comment": "=====INTEGRATED GRADIENTS CONFIGURATION=====",
+  "num_IG_steps": 100,
+
+  "_comment": "=====ATTRIBUTION ROBUSTNESS CONFIGURATION=====",
+  "attribution_attack_method": "topK",
+  "attribution_attack_measure": "kendall",
+  "saliency_type": "ig",
+  "k_top": 200,
+  "eval_k_top": 100, 
+  "attribution_attack_step_size": 0.01,
+  "attribution_attack_steps": 100,
+  "attribution_attack_times": 3 
+}

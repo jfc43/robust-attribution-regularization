@@ -1,0 +1,48 @@
+{
+  "_comment": "===== MODEL CONFIGURATION =====",
+  "model_dir": "models/nat_trained",
+
+  "_comment": "===== DATASET CONFIGURATION =====",
+  "data_path": "data",
+
+  "_comment": "===== TRAINING CONFIGURATION =====",
+  "tf_random_seed": 451760341,
+  "np_random_seed": 216105420,
+  "max_num_training_steps": 70001,
+  "num_output_steps": 100,
+  "num_summary_steps": 100,
+  "num_checkpoint_steps": 1000,
+  "training_batch_size": 16,
+  "step_size_schedule": [[0, 0.001], [500, 0.01], [60000, 0.001]],
+  "weight_decay": 0.0002,
+  "momentum": 0.9,
+  "m": 10,
+  "continue_train": false,
+  "lambda": 1.0,
+  "approx_factor": 1,
+  "training_objective": "nat",
+
+  "_comment": "===== EVAL CONFIGURATION =====",
+  "num_eval_examples": 136,
+  "eval_batch_size": 100,
+
+  "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
+  "epsilon": 8.0,
+  "num_steps": 7,
+  "step_size": 2.0,
+  "random_start": true,
+  "loss_func": "xent",
+    
+  "_comment": "=====INTEGRATED GRADIENTS CONFIGURATION=====",
+  "num_IG_steps": 100,
+    
+  "_comment": "=====ATTRIBUTION ROBUSTNESS CONFIGURATION=====",
+  "attribution_attack_method": "topK",
+  "attribution_attack_measure": "kendall",
+  "saliency_type": "ig",
+  "k_top": 1000,
+  "eval_k_top": 1000, 
+  "attribution_attack_step_size": 1.0,
+  "attribution_attack_steps": 100,
+  "attribution_attack_times": 3 
+}
