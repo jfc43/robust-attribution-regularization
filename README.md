@@ -15,6 +15,7 @@ It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requries
 
 ## Downloading Datasets
 * [MNIST](http://yann.lecun.com/exdb/mnist/): included in Tensorflow. 
+* [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist): can be loaded via Tensorflow.
 * [GTSRB](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset): we provide scripts to download it. 
 * [Flower](http://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html): we provide scripts to download it.
 
