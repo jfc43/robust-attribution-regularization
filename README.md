@@ -1,6 +1,8 @@
 # Robust Attribution Regularization
 This project is for the paper: [Robust Attribution Regularization](https://arxiv.org/abs/1905.09957). Some codes are from [MNIST Challenge](https://github.com/MadryLab/mnist_challenge), [CIFAR10 Challenge](https://github.com/MadryLab/cifar10_challenge), [Deep traffic sign classification](https://github.com/joshwadd/Deep-traffic-sign-classification), [tflearn oxflower17](https://github.com/tflearn/tflearn/blob/master/tflearn/datasets/oxflower17.py) and [Interpretation of Neural Network is Fragile](https://github.com/amiratag/InterpretationFragility). 
 
+![alt text](https://github.com/jfc43/robust-attribution-regularization/blob/master/demo-figure.png)
+
 ## Preliminaries
 It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requries some packages to be installed:
 * [Tensorflow](https://www.tensorflow.org/install)
