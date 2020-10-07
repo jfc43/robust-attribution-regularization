@@ -81,3 +81,17 @@ Attribution robustness configuration:
 - `attribution_attack_step_size`: step size of attribution attack.
 - `attribution_attack_steps`: the number of iterations used by the attack. 
 - `attribution_attack_times`: the number of iterations to repeat the attack. 
+
+### Citation 
+Please cite our work if you use the codebase: 
+```
+@article{chen2020informative-outlier-matters,
+title={Informative Outlier Matters: Robustifying Out-of-distribution Detection Using Outlier Mining},
+author={Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh},
+journal={arXiv preprint arXiv:2006.15207},
+year={2020}
+}
+```
+
+### License
+Please refer to the [LICENSE](LICENSE).
