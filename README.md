@@ -6,7 +6,7 @@ This project is to solve an emerging problem in trustworthy machine learning: tr
 ![alt text](https://github.com/jfc43/robust-attribution-regularization/blob/master/demo-figure.png)
 
 ## Preliminaries
-It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requries some packages to be installed:
+It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requires some packages to be installed:
 * [Tensorflow](https://www.tensorflow.org/install)
 * [scipy](https://github.com/scipy/scipy)
 * [sklearn](https://scikit-learn.org/stable/)
